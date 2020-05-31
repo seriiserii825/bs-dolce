@@ -11,28 +11,6 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<!--<div class="preloader">-->
-<!--    <div class="preloader-body">-->
-<!--        <div class="cssload-bell">-->
-<!--            <div class="cssload-circle">-->
-<!--                <div class="cssload-inner"></div>-->
-<!--            </div>-->
-<!--            <div class="cssload-circle">-->
-<!--                <div class="cssload-inner"></div>-->
-<!--            </div>-->
-<!--            <div class="cssload-circle">-->
-<!--                <div class="cssload-inner"></div>-->
-<!--            </div>-->
-<!--            <div class="cssload-circle">-->
-<!--                <div class="cssload-inner"></div>-->
-<!--            </div>-->
-<!--            <div class="cssload-circle">-->
-<!--                <div class="cssload-inner"></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-<!-- Page Header-->
 <header class="section page-header">
     <!-- RD Navbar-->
     <div class="rd-navbar-wrap">
@@ -101,180 +79,25 @@
                 <div class="rd-navbar-main">
                     <div class="rd-navbar-nav-wrap">
                         <!-- RD Navbar Nav-->
-                        <ul class="rd-navbar-nav">
-                            <li class="rd-nav-item active">
-                                <a class="rd-nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="grid-gallery.html">Gallery</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-menu rd-navbar-dropdown">
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="grid-gallery.html">Grid Gallery</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link"
-                                           href="grid-fullwidth-gallery.html">Grid Fullwidth Gallery
-                                        </a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="masonry-gallery.html">Masonry Gallery</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link"
-                                           href="masonry-fullwidth-gallery.html">Masonry Fullwidth Gallery
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="grid-shop.html">Shop</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-menu rd-navbar-dropdown">
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="grid-shop.html">Grid Shop</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="shop-list.html">Shop List</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="single-product.html">Single Product</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="cart-page.html">Cart Page</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="checkout.html">Checkout</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="grid-blog.html">Blog</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-menu rd-navbar-dropdown">
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="grid-blog.html">Grid Blog</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="blog-list.html">Blog List</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="blog-post.html">Blog Post</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="index.html#">Pages</a>
-                                <!-- RD Navbar Dropdown-->
-                                <ul class="rd-menu rd-navbar-dropdown">
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="what-we-offer.html">What We Offer</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="our-team.html">Our Team</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="testimonials.html">Testimonials</a>
-                                    </li>
-                                    <li class="rd-dropdown-item">
-                                        <a class="rd-dropdown-link" href="pricing-list.html">Pricing List</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="index.html#">Elements</a>
-                                <!-- RD Navbar Megamenu-->
-                                <ul class="rd-menu rd-navbar-megamenu">
-                                    <li class="rd-megamenu-item">
-                                        <div class="rd-megamenu-title">
-                                            <span class="rd-megamenu-icon mdi mdi-apps"></span>
-                                            <span class="rd-megamenu-text">Elements</span>
-                                        </div>
-                                        <ul class="rd-megamenu-list rd-megamenu-list-2">
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="typography.html">Typography
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="icon-lists.html">Icon lists
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="progress-bars.html">Progress bars
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="calls-to-action.html">Calls to action
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="tabs-and-accordions.html">Tabs &amp; accordions
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="buttons.html">Buttons</a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="tables.html">Tables</a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="forms.html">Forms</a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="counters.html">Counters</a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="grid-system.html">Grid system
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="rd-megamenu-item flex-grow-1 flex-shrink-0">
-                                        <div class="rd-megamenu-title">
-                                            <span class="rd-megamenu-icon mdi mdi-layers"></span>
-                                            <span class="rd-megamenu-text">Additional pages</span>
-                                        </div>
-                                        <ul class="rd-megamenu-list">
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link" href="404-page.html">404 Page</a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="coming-soon.html">Coming Soon
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="privacy-policy.html">Privacy Policy
-                                                </a>
-                                            </li>
-                                            <li class="rd-megamenu-list-item">
-                                                <a class="rd-megamenu-list-link"
-                                                   href="search-results.html">Search Results
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="rd-megamenu-item rd-megamenu-banner">
-                                        <div class="rd-megamenu-title">
-                                            <span class="rd-megamenu-icon mdi mdi-cake-variant"></span>
-                                            <span class="rd-megamenu-text">Welcome to Our Store</span>
-                                        </div>
-                                        <a class="banner-classic" href="grid-shop.html">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/banner-1-300x202.jpg"
-                                                 alt="" width="300" height="202"/>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="rd-nav-item">
-                                <a class="rd-nav-link" href="contact-us.html">Contact Us</a>
-                            </li>
-                        </ul>
+                        <?php wp_nav_menu( [
+                        	'theme_location'  => 'menu-top',
+                        	'menu'            => '',
+                        	'container'       => '',
+                        	'container_class' => '',
+                        	'container_id'    => '',
+                        	'menu_class'      => 'rd-navbar-nav',
+                        	'menu_id'         => '',
+                        	'echo'            => true,
+                        	'fallback_cb'     => 'wp_page_menu',
+                        	'before'          => '',
+                        	'after'           => '',
+                        	'link_before'     => '',
+                        	'link_after'      => '',
+                        	'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                        	'depth'           => 0,
+                        	'walker'          => '',
+                        ] ); ?>
+
                     </div>
                     <div class="rd-navbar-main-element">
                         <!-- RD Navbar Search-->
