@@ -25,24 +25,31 @@
                  data-rd-navbar-toggle=".rd-navbar-collapse">
                 <span></span>
             </div>
+
+	        <?php if ( ! dynamic_sidebar( 'wpglobus' ) ): ?>
+                <h3>For wpglbous widget</h3>
+	        <?php endif; ?>
             <div class="rd-navbar-aside-outer">
                 <div class="rd-navbar-aside">
                     <div class="rd-navbar-collapse">
+
                         <div class="contacts-ruth">
                             <div class="unit unit-spacing-xs-2 align-items-center">
                                 <div class="unit-left">
                                     <span class="icon linearicons-map-marker"></span>
                                 </div>
                                 <div class="unit-body">
-                                    <a href="index.html#">523 Sylvan Ave<br/>Mountain View, CA 94041 USA</a>
+                                    <a href="<?php echo home_url(); ?>"><?php echo get_field('address', 7); ?></a>
                                 </div>
                             </div>
                         </div>
-                        <a class="button button-sm button-icon button-icon-left button-default-outline-3 button-zakaria"
-                           href="index.html#">
+
+
+                        <a class="button button-sm button-icon button-icon-left button-default-outline-3 button-zakaria" href="index.html#">
                             <span class="icon mdi mdi-email-outline"></span>
                             Get in touch
                         </a>
+
                     </div>
                     <!-- RD Navbar Panel-->
                     <div class="rd-navbar-panel">
